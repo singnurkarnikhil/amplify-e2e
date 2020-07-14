@@ -16,7 +16,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "npx serve -s build",
+    "cy:run": "cypress run --record --key d7fb5d3f-065a-4eca-9a78-1cfe700e41a3 --config baseUrl=http://localhost:5000",
+    "ci:build-and-serve": "yarn build && yarn serve",
+    "ci:e2e": "npx kill-port 5000 && npx start-server-and-test ci:build-and-serve http://localhost:5000 cy:run"
   },
   "eslintConfig": {
     "extends": "react-app"
