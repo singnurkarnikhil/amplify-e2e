@@ -1,0 +1,6 @@
+{
+  "projectId": "yt2e7s",
+  "baseUrl": "http://localhost:3000",
+  "integrationFolder": "cypress/e2e",
+  "experimentalShadowDomSupport": true
+}
