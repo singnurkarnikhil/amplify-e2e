@@ -1,5 +1,5 @@
 {
-  "projectId": "yt2e7s",
+  "projectId": "enakan",
   "baseUrl": "http://localhost:3000",
   "integrationFolder": "cypress/e2e",
   "experimentalShadowDomSupport": true
